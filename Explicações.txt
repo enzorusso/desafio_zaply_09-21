@@ -11,7 +11,7 @@ Sobre as coisas que deram errado:
   Tentei não usar nenhuma tecnologia de backend pela questão do tempo e por não ter muita familiaridade. Então, escolhi não arrsicar muito e apenas ler o
   arquivo no front. Porém, não consegui ler o arquivo csv para utilizar os dados, então os deixei mockados no arquivo ProdStore.js, 
   dentro da pasta models. Deixei comentado no App.js a parte que tentei utilizar para ler o arquivo (um fetch logo no início do código), 
-  que não funcionou. Além disso, tentei utilizar as csv-parser, fs, papaparse, mas sem sucesso também. O mesmo se dá para a pesquisa e a 
+  que não funcionou. Além disso, tentei utilizar as csv-parser, fs, papaparse, d3 mas sem sucesso também. O mesmo se dá para a pesquisa e a 
   edição dos produtos. Por mais que no front tenha a barra de pesquisa, ela não está funcionando. Perdi muito tempo tentando ler o arquivo 
   que não consegui implementar a lógica para a busca (sem mesmo saber se iria conseguir, mas iria tentar tudo que desse). Há também um select com 
   filtros do lado esquerdo da tela, que ao clicar, retorna um erro. Eu deixei ali como uma tentativa de filtrar, pois acho que seria algo muito legal, 
@@ -21,4 +21,16 @@ Utilizei um layout de cards, pois acho que fica muito legal para o usuário. Cad
 cria-se um scroll lateral para mostrar todos os produtos. Tentei solucionar isso utilizando um Grid em uma coluna e outro dentro da linha, 
 com o componente do card dentro da linha, limitando o width da linha, porém, tanto o @material-ui/core, quanto o @mui/material, apresentaram 
 problemas na importação, fazendo com que eu não conseguisse utilizá-los. 
+
+
+Alguns links utilizados e pesquisados:
+https://www.elastic.co/pt/blog/how-to-build-great-react-search-experiences-quickly?blade=facebook&hulk=social
+
+https://www.papaparse.com
+
+https://www.youtube.com/watch?v=mLcYqKZ_vzc
+
+https://www.youtube.com/watch?v=auULUTr5hk8
+
+https://www.youtube.com/watch?v=Zhi7Y1oi5qs
 
