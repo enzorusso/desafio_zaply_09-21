@@ -1,0 +1,22 @@
+--- EXPLICAÇÕES ---
+
+Sobre o código:	
+	Optei por realizar a programação em JS, visto que a maioria dos materiais de estudo são direcionados para JS e, 
+  por se tratar de um desafio, me desafiar a sair da zona de conforto que seria utilizaf o TypeScript, que tenho mais familiaridade 
+  por trabalhar mais recente e mais afundo com ele.
+	Utlizei Class Component ao invés de hooks pelo mesmo motivo, a fim de me desafiar a usar coisas diferentes. 
+  Quando estudei react, utilizei hooks, então tentei algo diferente para ir aprendendo mais.
+	
+Sobre as coisas que deram errado:
+	Não consegui ler o arquivo csv para utilizar os dados, então os deixei mockados no arquivo ProdStore.js, 
+  dentro da pasta models. Deixei comentado no App.js a parte que tentei utilizar para ler o arquivo (um fetch logo no início do código), 
+  que não funcionou. Além disso, tentei utilizar as csv-parser, fs, papaparse, mas sem sucesso também. O mesmo se dá para a pesquisa e a 
+  edição dos produtos. Por mais que no front tenha a barra de pesquisa, ela não está funcionando. Perdi muito tempo tentando ler o arquivo 
+  que não consegui implementar a lógica para a busca (sem mesmo saber se iria conseguir, mas iria tentar tudo que desse). Há também um select com 
+  filtros do lado esquerdo da tela, que ao clicar, retorna um erro. Eu deixei ali como uma tentativa de filtrar, pois acho que seria algo muito legal, 
+  porém também não consegui consertar a ponto de funcionar. 
+
+Utilizei um layout de cards, pois acho que fica muito legal para o usuário. Cadastrei apenas 3 produtos porque ao passar disso, 
+cria-se um scroll lateral para mostrar todos os produtos. Tentei solucionar isso utilizando um Grid em uma coluna e outro dentro da linha, 
+com o componente do card dentro da linha, limitando o width da linha, porém, tanto o @material-ui/core, quanto o @mui/material, apresentaram 
+problemas na importação, fazendo com que eu não conseguisse utilizá-los. 
